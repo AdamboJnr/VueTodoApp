@@ -12,6 +12,7 @@
         methods:{
             addItem(){
                 this.items.push({ name: this.addedItem, complete: false })
+                this.addedItem = ""
             }
         }
     }
